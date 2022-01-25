@@ -1,27 +1,150 @@
-.icons {
-  /* width: 100px;
-  height: 100px;
-  display: inline-block;
-  line-height: 100px;
-  background: #fff;
-  color: aqua; */
+body {
+  font-family: "Carter One", cursive;
 }
 
-/*
-Use this video to change color of image.
-https://www.youtube.com/watch?v=Ni49a8gZQxY&ab_channel=LearnToCode-%D8%A7%D9%84%D8%AF%D8%A7%D8%B1%D8%AC%D8%A9%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9 */
-/* .icons img:before {
-  margin-left: 0;
+.title-font {
   font-size: 50px;
-  border: ; 
-  color: blue;
-} */
+  display: inline-block;
+  color: white;
+}
+
+.s-title-font {
+  font-size: 20px;
+  display: inline-block;
+  color: rgb(34, 126, 83);
+}
+
+.sub-font {
+  font-size: 12px;
+  display: inline-block;
+  color: rgb(56, 155, 100);
+}
+
+.icon {
+}
 
 .icon-img {
   width: 100px;
   height: 100px;
   line-height: 100px;
+  padding: 0.5em 0.5em;
+  margin-left: auto;
   color: antiquewhite;
-  filter: invert(74%) sepia(62%) saturate(403%) hue-rotate(85deg)
-    brightness(96%) contrast(91%);
+  filter: invert(54%) sepia(35%) saturate(749%) hue-rotate(91deg)
+    brightness(91%) contrast(89%);
 }
+
+/* ////////// Banner //////////*/
+
+header {
+  width: 100%;
+  /* height: 100px; */
+
+  box-shadow: 0px 1px 5px #2b8242;
+  flex-flow: row nowrap;
+  background: rgba(46, 208, 132, 0.645);
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.row div {
+  text-align: center;
+}
+
+.col-1 {
+  flex: 1;
+  order: 1;
+}
+
+.col-2 {
+  flex: 1;
+  order: 2;
+}
+
+.col-3 {
+  flex: 1;
+  order: 3;
+}
+/* ////////// Work Section //////////*/
+
+/* WHAT I DO - section
+.section-work {
+  display: flex;
+  justify-content: space-between;
+  /* width: 80%; 
+}
+
+.section-work div {
+  width: 80%;
+  padding: 10px;
+  height: 95vh;
+  background: rgb(96, 218, 195);
+}
+.work-col-1 {
+  flex: 1;
+  order: 1;
+}
+
+.work-col-2 {
+  flex: 1;
+  order: 2;
+}
+
+.work-col-3 {
+  flex: 1;
+  order: 3;
+}
+ */
+
+@media (max-width: 1070px) {
+}
+.work-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.work-box div {
+  background: rgb(96, 218, 195);
+  padding: 10px;
+}
+
+.work-col-1 {
+  flex: 1;
+  /* width: 50%; */
+  order: 1;
+}
+
+.work-col-2 {
+  flex: 1;
+  /* width: 50%; */
+  order: 2;
+}
+
+.work-col-3 {
+  flex: 1;
+  /* width: 50%; */
+  order: 3;
+}
+
+.work-box-work {
+  width: 90%;
+}
+
+.feature-box {
+  height: 30vh;
+  padding: 2.5em 5.5em;
+  background: rgb(172, 245, 207);
+  text-align: center;
+  border-radius: 3px;
+  transform: transform 0.3s;
+}
+
+.feature-box a:hover {
+  transform: translateY(-1.5rem) scale(0.3s);
+}
+
+/* ////////// Navigation //////////*/
