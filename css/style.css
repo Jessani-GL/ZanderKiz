@@ -1,0 +1,27 @@
+.icons {
+  /* width: 100px;
+  height: 100px;
+  display: inline-block;
+  line-height: 100px;
+  background: #fff;
+  color: aqua; */
+}
+
+/*
+Use this video to change color of image.
+https://www.youtube.com/watch?v=Ni49a8gZQxY&ab_channel=LearnToCode-%D8%A7%D9%84%D8%AF%D8%A7%D8%B1%D8%AC%D8%A9%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9 */
+/* .icons img:before {
+  margin-left: 0;
+  font-size: 50px;
+  border: ; 
+  color: blue;
+} */
+
+.icon-img {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  color: antiquewhite;
+  filter: invert(74%) sepia(62%) saturate(403%) hue-rotate(85deg)
+    brightness(96%) contrast(91%);
+}
