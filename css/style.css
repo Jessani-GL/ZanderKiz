@@ -20,14 +20,20 @@ body {
   color: rgb(56, 155, 100);
 }
 
+.sub-font-white {
+  font-size: 18px;
+  display: inline-block;
+  color: white;
+}
+
 .icon {
 }
 
 .icon-img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   line-height: 100px;
-  padding: 0.5em 0.5em;
+  padding: 2em 0.5em 0.5em;
   margin-left: auto;
   color: antiquewhite;
   filter: invert(54%) sepia(35%) saturate(749%) hue-rotate(91deg)
@@ -148,3 +154,64 @@ header {
 }
 
 /* ////////// Navigation //////////*/
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  background: rgba(114, 255, 178, 0.508);
+}
+
+.nav-box-1 {
+  flex: 1;
+  order: 1;
+}
+
+nav {
+  text-align: center;
+}
+nav ul {
+  margin: 0;
+  padding: 1em;
+  display: inline-block;
+  list-style: none;
+}
+
+nav li {
+  border: 7px solid rgba(157, 248, 198, 0.946);
+  background-color: #fcbe4a;
+}
+
+nav li a {
+  display: block;
+  padding: 5px 5px;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+#nav li a:hover {
+  /* color: #fff; */
+  /* background-color: #000; */
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* ////////// Footer //////////*/
+
+.footer-container {
+  display: flex;
+
+  background: rgba(114, 255, 178, 0.508);
+}
+
+.footer-box-1 {
+  flex: 1;
+  order: 1;
+}
+
+footer div {
+  padding: 5rem 5rem;
+  height: 10vh;
+  background: rgba(46, 208, 132, 0.645);
+}
