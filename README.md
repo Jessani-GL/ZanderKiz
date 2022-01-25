@@ -1,2 +1,2 @@
 # ZanderKiz
-Promotional Site for an Artist
+Promotional Site for an Freelance Artist
